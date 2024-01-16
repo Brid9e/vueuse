@@ -18,7 +18,7 @@ const { stream, enabled } = useUserMedia({
 
 watchEffect(() => {
   if (video.value)
-    video.value.srcObject = stream.value!
+    video.value.srcObject = stream.value
 })
 </script>
 
